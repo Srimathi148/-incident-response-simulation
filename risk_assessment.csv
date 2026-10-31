@@ -1,0 +1,7 @@
+Risk,Description,Likelihood,Impact,Risk Level,Mitigation
+Credential Theft,Attacker steals employee login credentials,High,High,Critical,Enable MFA and security awareness training
+Unauthorised Account Access,Attacker accesses employee email account,High,High,Critical,Revoke sessions and reset passwords
+Data Leakage,Sensitive information may be exposed,Medium,High,High,Monitor access and restrict permissions
+File Modification,Important files may be changed without permission,High,High,Critical,Maintain file integrity monitoring
+Ransomware Activity,Malicious activity may affect file availability,Medium,High,High,Maintain secure backups and endpoint protection
+Business Disruption,Employees may lose access to shared resources,Medium,Medium,Medium,Prepare a recovery plan
