@@ -1,0 +1,11 @@
+Time,Event,Observation,Response Action
+09:00 AM,Phishing Email,Employee receives a fake document-sharing email,Email identified as suspicious
+09:10 AM,Credential Theft,Employee enters login credentials on a fake website,Account flagged for investigation
+09:15 AM,Unauthorised Login,Unusual login detected,Security team investigates login activity
+09:20 AM,MFA Approval,Unexpected MFA request approved,Active sessions revoked
+09:30 AM,Mailbox Changes,Unauthorised forwarding rule discovered,Forwarding rule removed
+09:45 AM,Suspicious File Activity,Unusual file modifications detected,Affected system isolated
+10:00 AM,Incident Containment,Compromised account restricted,Access secured
+10:30 AM,Eradication,Unauthorised settings removed and credentials reset,System security checked
+11:00 AM,Recovery,Files checked against secure backups,Safe operations restored
+11:30 AM,Final Review,Incident response reviewed,Security recommendations prepared
