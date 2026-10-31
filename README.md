@@ -1,5 +1,3 @@
-# -incident-response-simulation
-Cybersecurity Incident Response Simulation
 # Incident Response Simulation
 
 ## Project Overview
