@@ -1,0 +1,46 @@
+
+SIMULATED SECURITY ALERT
+========================
+
+Alert ID: ALT-003
+Alert Type: Suspicious File Modification Activity
+Severity: Critical
+Date: 06 November 2026
+Time: 09:45 AM
+
+Organisation: Apex Technologies Pvt. Ltd.
+Affected System: Internal File Server
+Affected Directory: /company/shared/
+Detection Source: Simulated Endpoint and File Monitoring
+
+ALERT DESCRIPTION:
+The simulated monitoring system detected an unusual increase in file renaming and modification activity within a shared company directory.
+
+Several files showed unexpected changes within a short period. This behaviour may be consistent with ransomware-related activity or another unauthorised file operation.
+
+No confirmed ransomware infection has been established in this simulation.
+
+ANALYST OBSERVATIONS:
+1. Multiple files were modified within a short time.
+2. The activity was unexpected during normal business hours.
+3. The affected directory contains shared organisational files.
+4. Further investigation is required to determine the cause.
+5. Potential data integrity and availability risks exist.
+
+RECOMMENDED ACTIONS:
+1. Preserve available file activity logs.
+2. Identify the affected files and time range.
+3. Isolate the potentially affected workstation or system.
+4. Check for suspicious processes and endpoint alerts.
+5. Verify backup availability and integrity.
+6. Avoid restoring files until the affected environment is assessed.
+7. Escalate the incident to the Incident Response Lead.
+
+INITIAL ASSESSMENT:
+High-priority suspicious file activity with possible ransomware implications. Confirmation requires further forensic investigation.
+
+Evidence Status: Preserved for simulation.
+Prepared By: Security Analyst
+
+NOTE:
+This is fictional evidence created for an academic incident response simulation. No ransomware was deployed and no real files were modified.
