@@ -1,11 +1,18 @@
-Time,Event,Observation,Response Action
-09:00 AM,Phishing Email,Employee receives a fake document-sharing email,Email identified as suspicious
-09:10 AM,Credential Theft,Employee enters login credentials on a fake website,Account flagged for investigation
-09:15 AM,Unauthorised Login,Unusual login detected,Security team investigates login activity
-09:20 AM,MFA Approval,Unexpected MFA request approved,Active sessions revoked
-09:30 AM,Mailbox Changes,Unauthorised forwarding rule discovered,Forwarding rule removed
-09:45 AM,Suspicious File Activity,Unusual file modifications detected,Affected system isolated
-10:00 AM,Incident Containment,Compromised account restricted,Access secured
-10:30 AM,Eradication,Unauthorised settings removed and credentials reset,System security checked
-11:00 AM,Recovery,Files checked against secure backups,Safe operations restored
-11:30 AM,Final Review,Incident response reviewed,Security recommendations prepared
+
+Event_ID,Simulated_Time,Incident_Stage,Event_Description,Responsible_Role,Response_Action,Status
+EVT-001,09:00 AM,Attack Initiation,Employee receives a fraudulent IT account verification email,Employee,Email received and later reported,Initial event
+EVT-002,09:10 AM,Credential Compromise,Employee enters credentials on a simulated fake login page,Employee,Credentials assumed compromised for simulation,Compromised
+EVT-003,09:20 AM,Detection,Unusual login detected on employee email account,Security Analyst,Authentication logs reviewed,Alert generated
+EVT-004,09:30 AM,Detection,Unauthorised external email forwarding rule identified,Security Analyst,Forwarding rule documented for investigation,Suspicious activity
+EVT-005,09:45 AM,Analysis,Suspicious file renaming and modification activity detected,IT Administrator,File server activity investigated,High priority
+EVT-006,10:00 AM,Incident Declaration,Incident response lead declares a high-priority security incident,Incident Response Lead,Response team activated,In progress
+EVT-007,10:15 AM,Containment,Compromised employee account temporarily disabled,IT Administrator,Account access restricted,Contained
+EVT-008,10:20 AM,Containment,Active authentication sessions revoked,IT Administrator,Existing sessions invalidated,Contained
+EVT-009,10:30 AM,Containment,Unauthorised email forwarding rule removed,Security Analyst,External forwarding disabled,Completed
+EVT-010,10:45 AM,Containment,Potentially affected workstation isolated,Network Administrator,Network access restricted,Isolated
+EVT-011,11:00 AM,Eradication,Security team examines account permissions and endpoint alerts,Security Analyst,Suspicious access mechanisms investigated,Under investigation
+EVT-012,11:30 AM,Eradication,Confirmed malicious components removed if detected,IT Administrator,Security remediation performed,Completed if applicable
+EVT-013,12:00 PM,Recovery,Important files checked against verified backups,IT Administrator,File integrity and backup verification performed,Verified
+EVT-014,12:30 PM,Recovery,Required files restored from clean backups if necessary,IT Administrator,Data restoration performed,Completed if required
+EVT-015,01:00 PM,Recovery,Account security strengthened and MFA enforced,IT Administrator,Credentials reset and authentication reviewed,Secured
+EVT-016,02:00 PM,Post-Incident Review,Services checked and monitoring continued,Incident Response Lead,Recovery reviewed and lessons documented,Monitoring
