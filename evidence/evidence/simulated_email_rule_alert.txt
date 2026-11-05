@@ -1,0 +1,45 @@
+
+SIMULATED SECURITY ALERT
+========================
+
+Alert ID: ALT-002
+Alert Type: Unauthorised Email Forwarding Rule
+Severity: High
+Date: 06 November 2026
+Time: 09:30 AM
+
+Organisation: Apex Technologies Pvt. Ltd.
+Affected Account: employee01@apextech.example
+
+Rule Name: External Message Forwarding
+Forwarding Destination: unknown-mailbox@external.example
+Rule Status: Enabled
+Detection Source: Simulated Email Security Monitoring
+
+ALERT DESCRIPTION:
+The simulated email monitoring system identified an unfamiliar forwarding rule configured on the affected employee account.
+
+The rule was created after the unusual login alert. This activity may indicate that an unauthorised person attempted to copy incoming organisational emails to an external mailbox.
+
+ANALYST OBSERVATIONS:
+1. The forwarding rule was not recognised by the employee.
+2. The destination address is outside the organisation.
+3. The event occurred shortly after the suspicious login.
+4. Possible confidential email exposure must be investigated.
+
+RECOMMENDED ACTIONS:
+1. Preserve details of the forwarding rule.
+2. Review the account's email activity.
+3. Remove the unauthorised forwarding rule.
+4. Review other mailbox settings for suspicious changes.
+5. Assess whether sensitive emails may have been exposed.
+6. Record all investigation and containment actions.
+
+INITIAL ASSESSMENT:
+Possible unauthorised mailbox access and email data exposure.
+
+Evidence Status: Preserved for simulation.
+Prepared By: Security Analyst
+
+NOTE:
+All accounts, email addresses, events, and alert details are fictional and created for an academic simulation.
