@@ -1,0 +1,40 @@
+
+SIMULATED SECURITY ALERT
+========================
+
+Alert ID: ALT-001
+Alert Type: Unusual Login Activity
+Severity: High
+Date: 06 November 2026
+Time: 09:20 AM
+
+Organisation: Apex Technologies Pvt. Ltd.
+Affected Account: employee01@apextech.example
+Source IP: 198.51.100.24
+Login Status: Successful
+Device Status: Unrecognised device
+
+ALERT DESCRIPTION:
+The simulated authentication monitoring system detected a successful login from an unfamiliar device. The login occurred shortly after the employee reported receiving a suspicious IT account verification email.
+
+ANALYST OBSERVATIONS:
+1. The login was not recognised by the employee.
+2. The event occurred after the simulated credential submission.
+3. The account may have been accessed using compromised credentials.
+
+RECOMMENDED ACTIONS:
+1. Review authentication logs.
+2. Temporarily disable the affected account.
+3. Revoke active authentication sessions.
+4. Reset the account password.
+5. Enforce multi-factor authentication.
+6. Check for additional suspicious account activity.
+
+INITIAL ASSESSMENT:
+Possible account compromise. Further investigation is required.
+
+Evidence Status: Preserved for simulation.
+Prepared By: Security Analyst
+
+NOTE:
+This is fictional evidence created for an academic incident response simulation. The IP address belongs to a reserved documentation range and does not identify an actual attacker.
