@@ -4,7 +4,7 @@
 
 **Phishing-Based Account Compromise and Suspected Ransomware Activity**
 
-## 2. Executive Summary
+## 2. Executive Summarys
 
 This report documents a fictional cybersecurity incident response simulation conducted for Apex Technologies Pvt. Ltd., a fictional IT services organisation.
 
