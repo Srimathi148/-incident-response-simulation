@@ -1,7 +1,10 @@
-Risk,Description,Likelihood,Impact,Risk Level,Mitigation
-Credential Theft,Attacker steals employee login credentials,High,High,Critical,Enable MFA and security awareness training
-Unauthorised Account Access,Attacker accesses employee email account,High,High,Critical,Revoke sessions and reset passwords
-Data Leakage,Sensitive information may be exposed,Medium,High,High,Monitor access and restrict permissions
-File Modification,Important files may be changed without permission,High,High,Critical,Maintain file integrity monitoring
-Ransomware Activity,Malicious activity may affect file availability,Medium,High,High,Maintain secure backups and endpoint protection
-Business Disruption,Employees may lose access to shared resources,Medium,Medium,Medium,Prepare a recovery plan
+
+Risk_ID,Threat_or_Risk,Vulnerability_or_Weakness,Likelihood,Impact,Risk_Level,Potential_Consequences,Recommended_Mitigation,Responsible_Role
+RISK-01,Phishing email leading to credential theft,Employee may not recognise a fraudulent login page,High,High,High,Unauthorised access to employee email and organisational information,Provide phishing awareness training and deploy email filtering,Security Analyst
+RISK-02,Unauthorised account access,Compromised credentials and insufficient authentication controls,High,High,High,Exposure of confidential emails and business information,Reset credentials revoke active sessions and enforce MFA,IT Administrator
+RISK-03,Unauthorised email forwarding,Attackers may create external forwarding rules after account compromise,Medium,High,High,Confidential emails may be copied outside the organisation,Audit forwarding rules and block unauthorised external forwarding,Security Analyst
+RISK-04,Suspicious file modification activity,Insufficient monitoring of file server changes,Medium,High,High,Potential data corruption or ransomware-related disruption,Monitor file activity isolate affected systems and verify backups,Network Administrator
+RISK-05,Loss of important business data,Backups may be incomplete or not regularly tested,Medium,High,High,Data loss and prolonged business interruption,Maintain offline or protected backups and conduct restoration tests,IT Administrator
+RISK-06,Delayed incident detection,Insufficient alert review and security monitoring,Medium,Medium,Medium,Attackers may retain access for a longer period,Enable centralised logging and establish alert escalation procedures,Incident Response Lead
+RISK-07,Unauthorised access through active sessions,Existing authenticated sessions may remain active after password compromise,Medium,High,High,An attacker may continue accessing services after a password reset,Revoke active sessions and review authentication logs,IT Administrator
+RISK-08,Incomplete incident documentation,Response actions and evidence may not be recorded consistently,Low,Medium,Low,Difficulty investigating the incident and identifying lessons,Maintain an incident log and evidence register,Incident Response Lead
