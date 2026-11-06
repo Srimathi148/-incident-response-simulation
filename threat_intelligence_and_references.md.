@@ -1,0 +1,131 @@
+
+# Threat Intelligence and References
+
+## 1. Purpose
+
+This document identifies the recognised cybersecurity guidance and threat techniques used to design the fictional incident at Apex Technologies Pvt. Ltd.
+
+The scenario combines phishing, possible credential compromise, unauthorised email forwarding, and suspicious file modification activity.
+
+No real organisation was attacked. All incident events and evidence are simulated.
+
+## 2. Relevant Cybersecurity Threats
+
+### 2.1 Phishing
+
+Phishing is a social engineering technique in which attackers use deceptive messages to trick users into revealing sensitive information or interacting with malicious links.
+
+**Connection to this simulation:**
+- An employee receives a fraudulent IT verification email.
+- The employee enters credentials on a simulated fake login page.
+- The credentials are assumed to be compromised for this exercise.
+
+**Relevant MITRE ATT&CK technique:** T1566 – Phishing.
+
+### 2.2 Abuse of Valid Accounts
+
+Attackers may use stolen or compromised legitimate credentials to access organisational systems and services.
+
+**Connection to this simulation:**
+- An unusual login is detected after the simulated credential compromise.
+- The response team investigates the affected account.
+- Active sessions are revoked and credentials are reset.
+
+**Relevant MITRE ATT&CK technique:** T1078 – Valid Accounts.
+
+### 2.3 Email Forwarding Rule Abuse
+
+An attacker with access to an email account may create forwarding rules to send organisational emails to an external mailbox.
+
+**Connection to this simulation:**
+- An unauthorised external forwarding rule is discovered.
+- The security analyst preserves the relevant evidence.
+- The forwarding rule is removed during containment.
+
+**Relevant MITRE ATT&CK technique:** T1114.003 – Email Forwarding Rule.
+
+### 2.4 Suspected Ransomware-Related Activity
+
+Ransomware incidents can affect the availability and integrity of organisational data. Unusual file modification activity may be a warning sign, but it does not independently confirm ransomware.
+
+**Connection to this simulation:**
+- Unusual file renaming and modification activity is detected.
+- The potentially affected workstation is isolated.
+- The team investigates before deciding whether restoration is necessary.
+
+**Important:** No ransomware was deployed or confirmed in this simulation.
+
+## 3. Security Framework and Guidance
+
+### 3.1 NIST Incident Response Guidance
+
+NIST Special Publication 800-61 Revision 3 provides guidance for integrating incident response into cybersecurity risk management and the NIST Cybersecurity Framework 2.0.
+
+The simulation uses its emphasis on:
+- Preparation and risk management.
+- Detection of cybersecurity events.
+- Incident response and containment.
+- Recovery.
+- Continuous improvement and lessons learned.
+
+### 3.2 CISA Phishing Guidance
+
+CISA's counter-phishing guidance discusses defensive measures such as email filtering, security controls, and user awareness.
+
+The simulation applies these ideas through phishing awareness, suspicious email reporting, and email security recommendations.
+
+### 3.3 CISA StopRansomware Guidance
+
+CISA's ransomware guidance provides recommendations for preparing for, responding to, and recovering from ransomware incidents.
+
+The simulation applies relevant defensive principles, including:
+- Identifying affected systems and accounts.
+- Containing potentially affected systems.
+- Protecting and verifying backups.
+- Investigating before restoring systems.
+- Reviewing security controls after an incident.
+
+## 4. Mapping of Threats to the Simulation
+
+| Simulated Activity | Reference |
+|---|---|
+| Fraudulent IT verification email | MITRE ATT&CK T1566 |
+| Use of compromised credentials | MITRE ATT&CK T1078 |
+| Unauthorised email forwarding | MITRE ATT&CK T1114.003 |
+| Suspicious file modification | CISA StopRansomware guidance |
+| Incident response and recovery | NIST SP 800-61 Rev. 3 |
+
+## 5. Recommendations Based on the Research
+
+1. Conduct regular employee phishing awareness training.
+2. Implement multi-factor authentication for organisational accounts.
+3. Monitor unusual login attempts and account activity.
+4. Audit email forwarding rules regularly.
+5. Use appropriate email filtering and security controls.
+6. Monitor unusual file modifications on critical systems.
+7. Maintain protected backups and test restoration procedures.
+8. Document incident response actions and lessons learned.
+
+## 6. References
+
+1. National Institute of Standards and Technology (NIST), 2025. *SP 800-61 Rev. 3: Incident Response Recommendations and Considerations for Cybersecurity Risk Management.*
+   https://csrc.nist.gov/pubs/sp/800/61/r3/final
+
+2. Cybersecurity and Infrastructure Security Agency (CISA). *Counter-Phishing Recommendations for Federal Agencies.*
+   https://www.cisa.gov/sites/default/files/2023-09/CISA_CEG_Counter-Phishing_Guidance_for_Federal_Agencies%20Aug-23%20Revision.pdf
+
+3. Cybersecurity and Infrastructure Security Agency (CISA). *#StopRansomware Guide.*
+   https://www.cisa.gov/stopransomware/ransomware-guide
+
+4. MITRE ATT&CK. *Phishing – T1566.*
+   https://attack.mitre.org/techniques/T1566/
+
+5. MITRE ATT&CK. *Valid Accounts – T1078.*
+   https://attack.mitre.org/techniques/T1078/
+
+6. MITRE ATT&CK. *Email Forwarding Rule – T1114.003.*
+   https://attack.mitre.org/techniques/T1114/003/
+
+## 7. Disclaimer
+
+This document is prepared for educational purposes as part of a simulated cybersecurity incident response project. The organisation, employees, alerts, accounts, and incident events are fictional. The references provide general defensive guidance and do not establish that a real attack occurred.
