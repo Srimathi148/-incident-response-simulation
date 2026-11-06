@@ -296,7 +296,7 @@ The knowledge gained from this exercise can help organisations improve their inc
 
 ## 20. References
 
-1. National Institute of Standards and Technology (NIST). *Computer Security Incident Handling Guide, Special Publication 800-61 Revision 2.* https://csrc.nist.gov/pubs/sp/800/61/r2/final
+1. National Institute of Standards and Technology (NIST). *Computer Security Incident Handling Guide, Special Publication 800-61 Revision 3.* https://csrc.nist.gov/pubs/sp/800/61/r2/final
 
 2. Cybersecurity and Infrastructure Security Agency (CISA). *Recognize and Report Phishing.* https://www.cisa.gov/secure-our-world/recognize-and-report-phishing
 
